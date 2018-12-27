@@ -11,4 +11,10 @@ INSTALLATION:
 - Set up Database (mymvc.sql)
 - Edit settings in "config" directory
 
+Login
+
+user: mail@test.it
+
+pwd: 123456789
+
 Bye
