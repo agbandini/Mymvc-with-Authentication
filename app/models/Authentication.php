@@ -197,7 +197,7 @@ class Authentication {
                 'msg' => "La mail inserita non è presente in archivio."
             ];
         }
-        return $res;
+        return $ret;
     }
 
 }

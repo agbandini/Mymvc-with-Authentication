@@ -17,7 +17,7 @@ class Email {
         try {
             $this->Email->IsSMTP(); // set mailer to use SMTP
             $this->Email->SMTPAuth = true;
-            $this->Email->From = \Conf::CFG_SYSTEM_EMAIL;
+            $this->Email->From = \Conf::CFG_SMTP_USERNAME;
             $this->Email->CharSet = "UTF-8";
             $this->Email->FromName = \Conf::CFG_APP_TITLE;
             $this->Email->Host = \Conf::CFG_SMTP_HOST; // specify main and backup server
@@ -37,14 +37,12 @@ class Email {
             $message = str_replace('%%SITE_URL%%', \Conf::CFG_APP_URL, $message);
             $message = str_replace('%%EMAIL%%', $email, $message);
             $message = str_replace('%%PASSWORD%%', $pwd, $message);
-
             $this->Email->Body = $message;
             $this->Email->ClearAddresses();
             $this->Email->AddAddress($email); // name is optional
             $this->Email->Send();
             return true;
         } catch (Exception $e) {
-
             return false;
         }
     }

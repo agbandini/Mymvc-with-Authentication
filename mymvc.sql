@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Dic 24, 2018 alle 12:43
+-- Creato il: Dic 27, 2018 alle 10:27
 -- Versione del server: 10.1.28-MariaDB
 -- Versione PHP: 7.1.11
 
@@ -47,7 +47,7 @@ CREATE TABLE `usr_users` (
 --
 
 INSERT INTO `usr_users` (`user_id`, `group_id`, `user_email`, `user_password`, `user_status`, `user_approved`, `remember_code`, `activation_code`, `last_ip`, `last_login`, `user_created`) VALUES
-(1, 1, 'info@mytest.it', '356a192b7913b04c54574d18c28d46e6395428ab37431af0b25654ca21ddbd5b3fd3961ba4876f274d3fe51b5da4866eaab3501d30a410a65125ec208ea0978455d977fca8a615a7e968eaa0ced595692d9f16d3', 1, 1, '59eb9163ed92bf1d32a14d7d0831c326f7837e59', '', '127.0.0.1', '2018-12-22 09:58:46', '0000-00-00 00:00:00');
+(1, 1, 'mail@test.it', '356a192b7913b04c54574d18c28d46e6395428abd9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85', 1, 1, '59eb9163ed92bf1d32a14d7d0831c326f7837e59', '', '127.0.0.1', '2018-12-27 10:25:02', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -100,7 +100,7 @@ CREATE TABLE `usr_user_profiles` (
 --
 
 INSERT INTO `usr_user_profiles` (`profile_id`, `user_id`, `ragione_sociale`, `nome`, `cognome`, `indirizzo`, `citta`, `cap`, `provincia`, `paese`, `telefono`, `cellulare`, `data_nascita`, `codice_fiscale`, `partita_iva`) VALUES
-(1, 1, 'Ragione sociale', 'Nome', 'Cognome', NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, '', NULL);
+(1, 1, 'Ragione sociale', 'Nome', 'Cognome', NULL, NULL, NULL, NULL, '', '', '123456', NULL, '', NULL);
 
 --
 -- Indici per le tabelle scaricate
