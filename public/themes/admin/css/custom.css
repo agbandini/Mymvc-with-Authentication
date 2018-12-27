@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mar-2018, 11.42.44
+    Author     : gmk
+*/
+
+.greenRow{
+    background-color: #90EE90;
+}
+
+.redRow{
+    background-color: #FFB6C1;    
+}
+
+.orangeRow{
+    background-color: #F7BE65;    
+}
+
+.blueRow td{
+    background-color: #7EDEDE !important;    
+}
+
+.primRow{
+    text-align: right;
+    background-color: #80B5D3 !important;    
+}
+
+.rigaHidden {
+    display: none;
+}
+
+.vertall {
+  display: table-cell;
+  vertical-align: middle !important;
+ }
+ 
+ .eurosign:before {
+    font-weight: bold;
+    font-size: 1.4rem;
+    position: relative;
+    content: '€ ';
+ }

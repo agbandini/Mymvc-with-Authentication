@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-0": {
+            "PHPMailer\\PHPMailer\\": "E:\\xampp7\\htdocs\\mymvc\\vendor\\phpmailer\\phpmailer\\src\\PHPMailer.php"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
