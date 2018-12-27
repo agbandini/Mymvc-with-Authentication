@@ -1,10 +1,14 @@
-Semplice progetto di Autenticazione Utenti Su struttura MVC
+Simple project for user authentication based on MVC
 
-Utilizza bootstrap - Tema Adminlte - PHPMailer Class - DataTables Ajax Plugin
+Uses:
+bootstrap - Adminlte  - https://adminlte.io/
+PHPMailer Class - https://github.com/PHPMailer/PHPMailer
+DataTables Ajax Plugin - https://datatables.net/
 
+INSTALLATION:
 
-ISTRUZIONI:
+- Create on your server a virtual host pointing to "public" directory
+- Set up Database (mymvc.sql)
+- Edit settings in "config" directory
 
-- Impostare il virtual host che punti alla cartella public
-- Impostare il db e configurare le opzioni nella cartella config
-- Impostare settaggi SMTP
+Bye
